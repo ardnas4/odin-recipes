@@ -1,0 +1,58 @@
+body {
+    background-image: url("../odin-recipes/images/moon.webp");
+    background-color: #fceff6;
+    font-family: "Courier New", monospace;
+    font-weight: 50px;
+}
+
+#cupcake-link {
+    width: 200px;
+    height: auto;
+}
+
+#cookie-link {
+    width: 400px;
+    height: auto;
+}
+
+#brownie-link {
+    width: 250px;
+    height: auto;
+}
+
+.text-centered {
+    text-align: center;
+}
+
+.image-centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#dessert-title {
+    color: #e841e5;
+}
+
+#description {
+    color: #9860ff;
+}
+
+#sweet-tooth {
+    color: #d36ffb;
+}
+
+#steps {
+    color: #ff76bf;
+}
+
+#outer
+{
+    width:100%;
+    text-align: center;
+}
+
+.inner
+{
+    display: inline-block;
+}

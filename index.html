@@ -3,16 +3,32 @@
     <head>
         <meta charset="UTF-8">
         <title>Sandra's Favorite Desserts!</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
-        <h1>Sandra's Favorite Desserts</h1>
-        <img src="./images/cute.gif" width="750" height="400">.
-        <h2>A collection of everything that sparks my sweet tooth!</h2>
-        <ul>
-            <li><a href="./recipes/cupcake.html">Cupcake</a></li>
-            <li><a href="./recipes/cookie.html">Cookie</a></li>
-            <li><a href="./recipes/brownie.html">Brownie</a></li>
-        </ul>
+        <h1 id="dessert-title" class="text-centered">Sandra's Favorite Desserts!</h1>
+        <img src="./images/cute.gif" width="650" height="350" class="image-centered">.
+        <h2 id="sweet-tooth" class="text-centered">A collection of recipes that sparks my sweet tooth!</h2>
+
+        <div id="outer">
+            <div class="inner">
+                <a href="./recipes/cupcake.html">
+                    <img src="./images/cupcake-link.png" id="cupcake-link">
+                </a>
+            </div>
+
+            <div class="inner">
+                <a href="./recipes/cookie.html">
+                    <img src="./images/cookie-link.png" id="cookie-link">
+                </a>
+            </div>
+
+            <div class="inner">
+                <a href="./recipes/brownie.html">
+                    <img src="./images/brownie-link.png" id="brownie-link">
+                </a>
+            </div>
+        </div>
     </body>
 </html>
