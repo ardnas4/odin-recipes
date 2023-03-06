@@ -1,23 +1,9 @@
 body {
-    background-image: url("../odin-recipes/images/background.webp");
-    background-color: #fceff6;
+    background-image: url("/images/background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: "Courier New", monospace;
     font-weight: 50px;
-}
-
-#cupcake-link {
-    width: 200px;
-    height: auto;
-}
-
-#cookie-link {
-    width: 400px;
-    height: auto;
-}
-
-#brownie-link {
-    width: 250px;
-    height: auto;
 }
 
 .text-centered {
@@ -46,13 +32,16 @@ body {
     color: #ff76bf;
 }
 
-#outer
-{
-    width:100%;
-    text-align: center;
-}
-
 .inner
 {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+a img {
+  width: 300px;
+  height: 300px;
+  object-fit: scale-down;
 }
